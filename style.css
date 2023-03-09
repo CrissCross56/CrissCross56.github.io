@@ -5,7 +5,7 @@ a{
 img{
     border: 3px solid #555;
     border-radius: 12px;
-    margin: 0 50% 0 50%
+    margin: 0 50% 0 50%;
     padding: 0 10% 0 10%;
 }
 
@@ -27,9 +27,11 @@ h1{
    justify-content: center;
 }
 
+/*
 main{
 
 }
+*/
 
 
 input{
@@ -73,4 +75,18 @@ li{
     color: white;
     padding: 1% 10% 35% 10%;
     margin: 5% 5% 100% 5%
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /*when this css activates I want to eventually blow up hte image of myself and turn off the other elements*/
+    body{
+        color: red;
+    }
 }
